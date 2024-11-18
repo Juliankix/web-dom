@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competencia de Perros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/perros/style.css">
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="card mx-2" style="width: 18rem;" id="card-perro1">
+                <img src="/img/perroganador.jpg" class="card-img-top" alt="Perro 1">
+                <div class="card-body">
+                    <h5 class="card-title">Perro 1</h5>
+                    <label for="raza1">Raza:</label>
+                    <input type="text" id="raza1" class="form-control" placeholder="Ingrese la raza">
+                    <select id="puesto1" class="form-select mt-2">
+                        <option value="1">Primer puesto</option>
+                        <option value="2">Segundo puesto</option>
+                        <option value="3">Tercer puesto</option>
+                    </select>
+                    <p id="puesto-perro1">Puesto: -</p>
+                    <p id="precio-perro1">Precio: $0</p>
+                    <p id="raza-perro1">Raza: -</p>
+                </div>
+            </div>
+
+            <div class="card mx-2" style="width: 18rem;" id="card-perro2">
+                <img src="/img/perroganador3.jpg" class="card-img-top" alt="Perro 2">
+                <div class="card-body">
+                    <h5 class="card-title">Perro 2</h5>
+                    <label for="raza2">Raza:</label>
+                    <input type="text" id="raza2" class="form-control" placeholder="Ingrese la raza">
+                    <select id="puesto2" class="form-select mt-2">
+                        <option value="1">Primer puesto</option>
+                        <option value="2">Segundo puesto</option>
+                        <option value="3">Tercer puesto</option>
+                    </select>
+                    <p id="puesto-perro2">Puesto: -</p>
+                    <p id="precio-perro2">Precio: $0</p>
+                    <p id="raza-perro2">Raza: -</p>
+                </div>
+            </div>
+
+            <div class="card mx-2" style="width: 18rem;" id="card-perro3">
+                <img src="/img/perroganador2.jpg" class="card-img-top" alt="Perro 3">
+                <div class="card-body">
+                    <h5 class="card-title">Perro 3</h5>
+                    <label for="raza3">Raza:</label>
+                    <input type="text" id="raza3" class="form-control" placeholder="Ingrese la raza">
+                    <select id="puesto3" class="form-select mt-2">
+                        <option value="1">Primer puesto</option>
+                        <option value="2">Segundo puesto</option>
+                        <option value="3">Tercer puesto</option>
+                    </select>
+                    <p id="puesto-perro3">Puesto: -</p>
+                    <p id="precio-perro3">Precio: $0</p>
+                    <p id="raza-perro3">Raza: -</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button class="btn btn-primary" onclick="actualizarPuestos()">Actualizar Precios</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/perros/script.js"></script>
+</body>
+</html>
+

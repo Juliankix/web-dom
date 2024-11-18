@@ -1,0 +1,38 @@
+body {
+    background-image: url('/img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-body {
+    color: white;
+}
+
+.card-img-top {
+    margin-top: 20px; 
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
